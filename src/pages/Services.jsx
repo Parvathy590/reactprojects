@@ -1,13 +1,11 @@
 import React from "react";
 import "../pages/Services.css";
+import Navbar from "../component/Navbar";
 
 function Services() {
   return (
     <div className="services-container">
-      <header className="header">
-        <h1 className="title">Our Services</h1>
-        <p className="subtitle">Comprehensive Real Estate Solutions</p>
-      </header>
+      <Navbar/>
 
       <main className="main-content">
         {/* Property Listings */}

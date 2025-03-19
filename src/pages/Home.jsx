@@ -1,22 +1,12 @@
 import React from "react";
 import "../pages/Home.css";
+import Navbar from "../component/Navbar";
 import { Link } from "react-router-dom";
 
 function Home() {
   return (
     <div className="home-container">
-      <header className="header">
-        <h1 className="title">Welcome to Real Estate Listings</h1>
-        <p className="subtitle">Find, explore, and list properties with ease.</p>
-        <nav>
-          <ul className="nav-links">
-            <li><Link to="/about">About</Link></li>
-            <li><Link to="/services">Services</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
-          </ul>
-        </nav>
-      </header>
-
+      <Navbar/>
       <main className="main-content">
         {/* Hero Section */}
         <section className="hero">
